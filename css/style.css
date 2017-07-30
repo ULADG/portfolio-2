@@ -1,0 +1,89 @@
+/* 
+*general styles - START 
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #291f1a;
+	margin: 0;
+	background-color: antiquewhite;
+	/* background roboczy */
+	font-weight: 300;
+	z-index: 15; 
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;}
+
+section {
+	padding: 0, 80px, 100 px;
+}
+#main-nav {
+	position: fixed;
+	background-color: rgba(255,255,255, 0.7);
+	z-index: 10;
+	width: 100%;
+		top: 0;
+	right: 0;
+}
+
+#main-nav > ul {
+	float: right;
+}
+
+#main-nav > ul > li {
+	display: inline-block;
+	list-style: none;
+	padding: 25px;
+}
+
+#main-nav > ul > li a {
+	color: #1ac056;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+#main-nav > ul > li a:hover {
+	color: #291f1a;
+}
+/*header styles start */
+
+#main-header {
+	background-image: url(../img/header-background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#main-header .main-header-content {
+	padding: 30vh;
+}
+#main-header .main-header-content h1 {
+	font-family: roboto sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 100;
+	text-align: left;
+	
+}
+
+/*header styles stop */
+/*Main ABOUTSTART*/
+#about > figure {
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+#about > article {
+	width: 50%;
+	float: left;
+	
+}
+#about > figure > img {
+	max-height: 350px;
+}
+
+
+/*Main ABOUTSTop*/
