@@ -13,17 +13,18 @@ body {
 	background-color: antiquewhite;
 	/* background roboczy */
 	font-weight: 300;
-	z-index: 15; 
+	
 }
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;}
 
 section {
-	padding: 0, 80px, 100 px;
+	padding: 30px, 100px;
 }
+
 #main-nav {
 	position: fixed;
-	background-color: rgba(255,255,255, 0.7);
+	background-color: rgba(255,255,255, 0.9);
 	z-index: 10;
 	width: 100%;
 		top: 0;
@@ -37,7 +38,7 @@ section {
 #main-nav > ul > li {
 	display: inline-block;
 	list-style: none;
-	padding: 25px;
+	padding: 5px;
 }
 
 #main-nav > ul > li a {
@@ -52,7 +53,7 @@ section {
 /*header styles start */
 
 #main-header {
-	background-image: url(../img/header-background.jpg);
+	background-image: url(../img/background2.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -60,30 +61,92 @@ section {
 #main-header .main-header-content {
 	padding: 30vh;
 }
-#main-header .main-header-content h1 {
-	font-family: roboto sans-serif;
+#main-header .main-header-content h1  {
+	font-family: lato, sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	font-weight: 100;
-	text-align: left;
+	font-weight: 700;
+}
+h2 {
+		font-family: lato, sans-serif;
+	
+	color: #fff;
+	font-weight: 400;
+}
 	
 }
 
 /*header styles stop */
-/*Main ABOUTSTART*/
-#about > figure {
+/*section ABOUTSTART*/
+
+#about {
+	
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px 0px
+		rgba(0,0,0,0.75);
+
+	
+}
+
+
+section#about h3 {
+	color: darkblue;
+	font-size: 35px;
+}
+section#about > figure {
 	width: 50%;
 	float: left;
 	margin: 0;
+	text-align: center;
 }
-#about > article {
+section#about > p {
 	width: 50%;
 	float: left;
+	padding: 15px;
+	
 	
 }
-#about > figure > img {
-	max-height: 350px;
+section#about > figure > img {
+	max-height: 200px;
+	max-width: 100%;
+	border: 5px solid darkblue;
+	border-radius: 10px;
 }
+
+#box-shadow {
+	box-shadow: 0px 2px 2px 0px
+		rgba(0,0,0,0.75);
+}
+
+#skills h2 {
+	color: darkblue;
+	font-size: 25px;
+	font-weight: 500;
+}
+#skills > p {
+	text-align: center;
+}
+#skills div#skills-icons {
+	text-align: center;
+}
+
+#skills #skills-icons figure {
+	display: inline-block;
+}
+
+#skills div#skills-icons figure img  {
+	max-height: 350px;
+	max-width: 100%;
+	margin-bottom: 15px;
+	
+}
+#box-shadow {
+	box-shadow: 0px 2px 2px 0px
+		rgba(0,0,0,0.75);
+}
+
+
 
 
 /*Main ABOUTSTop*/
